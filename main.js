@@ -10,7 +10,7 @@ const root = createRoot(appElement);
 root.render( <App/> );
 
 const page = window.location.pathname;
-console.log('TEST')
+console.log('TESTTTT')
 
 const token = localStorage.getItem('token');
 if (!token && page !== '/login') {
